@@ -272,23 +272,6 @@ export default {
       })
     },
 
-    async dodaj_arhivu() {
-      if(this.createArchiveName != '') {
-        for(let i = 0; i < this.store.archiveData.length; i++){
-          if(this.createArchiveName == this.store.archiveData[i].naziv) //tu sam staoo 
-        }
-          await app.createSubarchive(this.createArchiveName,this.store.userData.ID)
-          let result = await app.getArchives()
-          this.createArchiveName = ''
-
-          if (result){
-            this.store.archiveData = ''
-            this.store.archiveData = result
-          }
-          else console.log("Prazan collection")
-      }
-      else console.log("Unesite naziv")
-    },
 
     add_archive_cancle() {
       this.createArchiveName = ''
