@@ -9,7 +9,7 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "start": "node main.js"
+    "start": "node app.js"
   },
   "dependencies": {
     "axios": "^0.19.2",
