@@ -1,5 +1,5 @@
 {
-  "name": "digitality","node" : "13.9.0.x",
+  "name": "digitality",
   "version": "0.1.0",
   "private": true,
   "engines": {
